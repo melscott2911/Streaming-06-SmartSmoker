@@ -2,6 +2,15 @@
 Mel Scott
 2/19/2023
 Module 6
+Screen Shots Below
+
+Smart Smoker Consumer Working:
+Smoker Consumer Working.png
+
+
+
+
+
 
 Smart Smoker
 Using a Barbeque Smoker
