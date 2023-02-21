@@ -87,8 +87,8 @@ def send_message(host: str, queue_name: str, message: str):
             # use the socket sendto() method to send the message
             sock.sendto(MESSAGE2, address_tuple)
             ch.basic_publish(exchange="", routing_key=queue_name2, body=MESSAGE2)
-             # print a message to the console for the user
-             print(f" [x] Sent Food A Temp {MESSAGE2}")
+            # print a message to the console for the user
+            print(f" [x] Sent Food A Temp {MESSAGE2}")
           except ValueError:
               pass
 
