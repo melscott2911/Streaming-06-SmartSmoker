@@ -5,7 +5,7 @@ Module 6
 Screen Shots Below
 
 Smart Smoker Consumer Working:
-![](
+![](Smoker_Consumer.py)
 
 
 
