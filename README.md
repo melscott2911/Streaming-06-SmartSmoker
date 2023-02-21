@@ -5,7 +5,7 @@ Module 6
 Screen Shots Below
 
 Smart Smoker Consumer Working:
-![]([Smoker_Consumer.py](https://github.com/melscott2911/Streaming-06-SmartSmoker/blob/main/Smoker%20Consumer%20Working.png))
+![Smoker Consumer Working](https://user-images.githubusercontent.com/97756987/220479103-9cb372b5-93ee-478a-9f27-e1f3945d2993.png)
 
 
 
