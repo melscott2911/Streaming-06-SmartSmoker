@@ -92,20 +92,20 @@ def send_message(host: str, queue_name: str, message: str):
           except ValueError:
               pass
 
-            try:
-                FoodB = round(float(Channel3),1)
-                # use an fstring to create a message from our data
-                # notice the f before the opening quote for our string?
-                FoodB_data = f"{Time}, {FoodB}"
-                # prepare a binary (1s and 0s) message to stream
-                MESSAGE3 = FoodB_data.encode()
-                # use the socket sendto() method to send the message
-                sock.sendto(MESSAGE3, address_tuple)
-                ch.basic_publish(exchange="", routing_key=queue_name3, body=MESSAGE3)
-                # print a message to the console for the user
-                print(f" [x] Sent Food B Temp {MESSAGE3}")
-            except ValueError:
-                pass
+         try:
+            FoodB = round(float(Channel3),1)
+            # use an fstring to create a message from our data
+            # notice the f before the opening quote for our string?
+            FoodB_data = f"{Time}, {FoodB}"
+            # prepare a binary (1s and 0s) message to stream
+            MESSAGE3 = FoodB_data.encode()
+            # use the socket sendto() method to send the message
+            sock.sendto(MESSAGE3, address_tuple)
+            ch.basic_publish(exchange="", routing_key=queue_name3, body=MESSAGE3)
+            # print a message to the console for the user
+            print(f" [x] Sent Food B Temp {MESSAGE3}")
+          except ValueError:
+              pass
              
     except pika.exceptions.AMQPConnectionError as e:
         print(f"Error: Connection to RabbitMQ server failed: {e}")
