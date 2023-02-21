@@ -6,9 +6,14 @@ Screen Shots Below
 
 Smart Smoker Consumer Working:
 ![Smoker Consumer Working](https://user-images.githubusercontent.com/97756987/220479103-9cb372b5-93ee-478a-9f27-e1f3945d2993.png)
-
-
-
+Smart Smoker Alert:
+![Smoker Consumer Alert](https://user-images.githubusercontent.com/97756987/220479217-0fe314f3-8d99-4b82-a43a-57233e8c26c0.png)
+FoodA Consumer Working:
+![FoodA_Consumer Running](https://user-images.githubusercontent.com/97756987/220479290-c2b07441-980f-4aca-a1bf-69ceeb9c7527.png)
+FoodA Consumer Alert:
+![FoodA_Consumer Alert](https://user-images.githubusercontent.com/97756987/220479332-7529b6aa-0980-43ed-9de4-0dfd1d66f05d.png)
+FoodB Consumer Running & Alerts:
+![FoodB_Consumer Running   Alert](https://user-images.githubusercontent.com/97756987/220479396-f2ed0926-51e9-43ef-9c85-51e3f8ad7387.png)
 
 
 
